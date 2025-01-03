@@ -1,0 +1,92 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #c54345;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    background: #c54345;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo Principal */
+main {
+    padding: 2rem;
+}
+
+/* Estilo das Seções do Dashboard */
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+/* Estilo do Rodapé */
+footer {
+    background: #c54345;
+    color: #fff;
+    text-align: center;
+    padding: 0.5px ;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo do Iframe */
+iframe {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* Estilo do Botão Voltar ao Topo */
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #c54345;
+    color: red;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#back-to-top:hover {
+    background-color: #555;
+}
